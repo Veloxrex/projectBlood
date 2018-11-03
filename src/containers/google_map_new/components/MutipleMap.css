@@ -1,0 +1,26 @@
+.left-bottom-m {
+    top: 10px;
+    left: 10px;
+    max-width: 30%;
+    max-height: 45%;
+}
+
+.wrap-m {
+    position: absolute;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 5px;
+/*    right: unset;
+    top: unset;
+    bottom: unset;*/
+}
+
+.mainMap {
+	position: relative;
+	overflow: hidden;
+	height: 650px;
+	width: 100%;
+}

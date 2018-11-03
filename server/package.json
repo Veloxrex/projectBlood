@@ -1,0 +1,28 @@
+{
+    "name": "bloodland-server",
+    "version": "1.0.0",
+    "description": "Describle about Bloodland Server App",
+    "scripts": {
+        "start": "nodemon ./app.js"
+    },
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.18.3",
+        "cors": "^2.8.4",
+        "express": "^4.16.3",
+        "express-fileupload": "^1.0.0-alpha.1",
+        "express-jwt": "^5.3.1",
+        "jsonwebtoken": "^8.3.0",
+        "lodash": "^4.17.11",
+        "mongodb": "^3.1.6",
+        "mongoose": "^5.2.15",
+        "node-cron": "^2.0.3",
+        "nodeidon": "0.0.3",
+        "nodemailer": "^4.6.8",
+        "rootpath": "^0.1.2",
+        "socket.io": "^2.1.1"
+    },
+    "devDependencies": {
+        "nodemon": "^1.18.4"
+    }
+}

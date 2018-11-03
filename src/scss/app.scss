@@ -1,0 +1,53 @@
+@import './settings/variable';  //themes' colors
+
+@import './vendor';
+
+//base...
+@import './generic/normalize.scss';
+@import './generic/box-sizing.scss';
+@import './base/scaffolding';
+@import './base/typography';
+
+//components...
+@import './component/btn';
+@import './component/card';
+@import './component/check-box';
+@import './component/sidebar';
+@import './component/topbar';
+@import './component/chat';
+@import './component/load';
+@import './component/form';
+@import './component/material-form';
+@import './component/mappanel';
+@import './component/dropzone';
+@import './component/customizer';
+@import './component/edit-table';
+@import './component/customizer';
+@import './component/pagination';
+@import './component/select-options';
+@import './component/table';
+@import './component/notification';
+@import './component/modal';
+@import './component/popover';
+@import './component/timeline';
+@import './component/tabs';
+@import './component/time-picker';
+@import './component/radio-btn';
+@import './component/date-picker';
+@import './component/wizard';
+@import './component/toggle-btn';
+@import './component/events';
+@import './component/project-member';
+
+//pages...
+@import './containers/account';
+@import './containers/profile';
+@import './containers/google';
+@import './containers/chat';
+@import './containers/mapMenu';
+@import './containers/rpsEvent';
+@import './containers/project-summary';
+
+//objects...
+@import 'objects/layout.scss';
+

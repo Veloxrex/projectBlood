@@ -1,0 +1,13 @@
+.tile-n {
+	position: absolute;
+    cursor: pointer;
+    width: 64px;
+    height: 64px;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+}
+/*.tile-n:hover {  }*/
+.tile-n:hover { background: rgba(0, 0, 0, 0.4); }
+.selected { background: rgba(0, 255, 200, 0.4); }
+.purchased { background: rgba(255, 127, 127, 0.4); }
+
+.movable { background: rgba(127, 255, 184, 0.38); }
